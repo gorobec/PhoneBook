@@ -127,7 +127,7 @@ public class AddContactFrame extends JFrame {
         add(cancelButton, constraints);
 
         pack();
-
+        setVisible(true);
     }
 
     public JTextField getContactName() {
