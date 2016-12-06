@@ -24,6 +24,9 @@ public class StartPageFrame extends JFrame {
 
         constraints.fill = GridBagConstraints.BOTH;
 
+        showContactsButton.addActionListener(e -> new ShowContactFrame());
+        addContactButton.addActionListener(e -> new AddContactFrame());
+        
         constraints.gridx = 0;
         constraints.gridy = 1;
         add(showContactsButton, constraints);
