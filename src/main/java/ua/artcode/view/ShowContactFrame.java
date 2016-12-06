@@ -36,7 +36,7 @@ public class ShowContactFrame extends JFrame{
         setTitle("Show Contact");
         setResizable(false);
         setLayout(new GridBagLayout());
-        setDefaultCloseOperation(WindowConstants.EXIT_ON_CLOSE);
+        setDefaultCloseOperation(WindowConstants.DISPOSE_ON_CLOSE);
         setLocationRelativeTo(null);
         setSize(new Dimension(600, 400));
 
