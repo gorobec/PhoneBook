@@ -8,7 +8,7 @@ import ua.artcode.view.StartPageFrame;
  */
 public class Run {
     public static void main(String[] args) {
-        ShowContactFrame frame = new ShowContactFrame();
+        StartPageFrame frame = new StartPageFrame();
         frame.setVisible(true);
     }
 }
