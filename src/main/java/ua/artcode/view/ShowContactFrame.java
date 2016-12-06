@@ -103,11 +103,8 @@ public class ShowContactFrame extends JFrame{
         constraints.gridx = 1;
         constraints.gridy = 8;
         add(cancelButton, constraints);
-
-
-
         pack();
-
+        setVisible(true);
     }
-    }
+}
 
